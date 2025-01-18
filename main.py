@@ -7,4 +7,8 @@ app.include_router(router)
 
 @app.get("/")
 def read_root():
-    return {"Message":"Welcome jkfsdhgiuseggh rldfb"}
+    return "Pravalika"
+
+@app.get("/2")
+def read_root():
+    return "P"
